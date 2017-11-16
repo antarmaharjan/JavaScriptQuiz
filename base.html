@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8"/>
+	<title> Java script tutorial</title>
+	<link rel="stylesheet" type="text/css" href="css/style_jsQuiz.css">
+
+	<script type="text/javascript">
+		function return_is_checked(){
+			var Yes_checked =document.getElementById('quiz_yes').checked;
+			var No_checked =document.getElementById('quiz_no').checked;
+			if(Yes_checked == false && No_checked == false){
+				alert("Please select an option");
+				return false;
+			}else{
+				return true;
+			}
+		}
+				
+	</script>
+</head>
+		
+	<body>
+		<div id="nav">
+			<ul>
+				<li> <a href="base.html">Home</a></li>			
+				<li> <a href="submission.html">Links</a></li>
+				<li> <a href="contact.html">Contact</a></li>
+			</ul>
+
+		
+		</div>
+
+		<div id="container" align="center">
+
+			<header>
+			<h1>Welcome to the webpage for  simple JavaScript quiz contest</h1>
+		</header>
+		
+		<!-- <form action="index_jsQz.html" method="get"onsubmit ="return_is_checked()"> -->
+			<form action="index_jsQz.html" method="get" onclick="return_is_checked()">
+			<!-- <img src="slide1.jpg" alt="picture"> -->
+			<p>This is a simple JavaScript quiz application developed by using JavaScript and JQuery.</p>
+			<p>It has ten questions.All questions are multiple choice. It also does form validation,incasse if you miss any question</p>
+			<p>At the end it will display scoring result.Once the "Begin" button is clicked, it will take you in </p>
+			<p>the quiz page.So, Please click on <strong>Begin</strong> to start the quiz. Good luck!!</p><br>
+			
+			<!-- Yes<input type="radio"  href ="index.html" name="quiz" value="yes" id="quiz_yes" /></br>
+			No<input type="radio"  href="submission.html" name="quiz" value="no" id="quiz_no" /></br> -->
+			<!-- <input type="submit" value="Begin" /> -->
+			<button class="button">Begin</button>
+		</form>
+		</div>
+		<br>
+
+		<br>
+		<footer>
+			<p>
+				Developed by Ratna Maharjan,2017
+			</p>
+		</footer>
+	</body>
+
+
+</html>

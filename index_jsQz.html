@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Simple JavaScript Quiz</title>
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/style_quiz.css">
+		<script src="js/script.js"></script>
+		<body>
+			<div id="nav" align="center">
+			<ul>
+				<li> <a href="base.html">Home</a></li>			
+				<li> <a href="submission.html">Links</a></li>
+				<li> <a href="contact.html">Contact</a></li>
+			</ul>
+
+		
+		</div>
+			<div id="container">
+				<header>
+				<h1> Simple JavaScript Quiz</h1>
+				<p>Test your knowledge in <strong> JavaScript Fundamentals</strong></p>
+			    </header>
+			    <section>
+			    	<div id="results"></div>
+			    	<form name="quizForm" onsubmit="return submitAnswers()">
+
+			    		<h3>1. Select a String function that creates a string and display in a big font as if it were in a tag?</h3>
+			    		<input type="radio" name="q1" value="a" id="q1a">a. anchor()<br>
+			    		<input type="radio" name="q1" value="b" id="q1b">b. blink()<br>
+			    		<input type="radio" name="q1" value="c" id="q1c">c. big()<br>
+			    		<input type="radio" name="q1" value="d" id="q1d">d. italics()<br>
+
+			    		<h3>2. In which HTML element do we put in JavaScript code?</h3>
+			    		<input type="radio" name="q2" value="a" id="q2a">a. &lt;js&gt;<br>
+			    		<input type="radio" name="q2" value="b" id="q2b">b. &lt;script&gt;<br>
+			    		<input type="radio" name="q2" value="c" id="q2c">c. &lt;body&gt;<br>
+			    		<input type="radio" name="q2" value="d" id="q2d">d. &lt;link&gt;<br>
+
+			    		<h3>3. Is it a valid to pass an anonymous function as an argument to another function?</h3>
+			    		<input type="radio" name="q3" value="a" id="q3a">a. True<br>
+			    		<input type="radio" name="q3" value="b" id="q3b">b. False<br>
+
+			    		
+						<h3>4. What is the function of Array object that runs through each element of the array?</h3>
+			    		<input type="radio" name="q4" value="a" id="q4a">a. forEach()<br>
+			    		<input type="radio" name="q4" value="b" id="q4b">b. every()<br>
+			    		<input type="radio" name="q4" value="c" id="q4c">c. filter()<br>
+			    		<input type="radio" name="q4" value="d" id="q4d">d. concat()<br>
+
+
+
+			    		<h3>5. Which of the following function of string object returns the capitalized string while respecting the current locale?</h3>
+			    		<input type="radio" name="q5" value="a" id="q5a">a. toLocaleUpperCase()<br>
+			    		<input type="radio" name="q5" value="b" id="q5b">b. toUpperCase<br>
+			    		<input type="radio" name="q5" value="c" id="q5c">c. toString<br>
+			    		<input type="radio" name="q5" value="d" id="q5d">d. substring<br>
+
+			    		<h3>6. Which HTML attribute is used to reference an external JavaScript file?</h3>
+			    		<input type="radio" name="q6" value="a" id="q6a">a. src<br>
+			    		<input type="radio" name="q6" value="b" id="q6b">b. rel<br>
+			    		<input type="radio" name="q6" value="c" id="q6c">c. type<br>
+			    		<input type="radio" name="q6" value="d" id="q6d">d. href<br>
+
+			    		<h3>7. How would you write "Hello" in an alert box?</h3>
+			    		<input type="radio" name="q7" value="a" id="q7a">a. msg("Hello")<br>
+			    		<input type="radio" name="q7" value="b" id="q7b">b. alertBox("Hello")<br>
+			    		<input type="radio" name="q7" value="c" id="q7c">c. document.write("Hello")<br>
+			    		<input type="radio" name="q7" value="d" id="q7d">d. alert("Hello")<br>
+
+			    		<h3>8. JavaScript is directly related to the "Java" Programming Language?</h3>
+			    		<input type="radio" name="q8" value="a" id="q8a">a. True<br>
+			    		<input type="radio" name="q8" value="b" id="q8b">b. False<br>
+
+			    		<h3>9. Which of the following methods removes the last element from an array and returns that element?</h3>
+			    		<input type="radio" name="q9" value="a" id="q9a">a. pop()<br>
+			    		<input type="radio" name="q9" value="b" id="q9b">b. None()<br>
+			    		<input type="radio" name="q9" value="c" id="q9c">c. last()<br>
+			    		<input type="radio" name="q9" value="d" id="q9d">d. get()<br>
+			    		
+			    		<h3>10. A variable in JavaScript must start with which special character</h3>
+			    		<input type="radio" name="q10" value="a" id="q10a">a. @<br>
+			    		<input type="radio" name="q10" value="b" id="q10b">b. $<br>
+			    		<input type="radio" name="q10" value="c" id="q10c">c. #<br>
+			    		<input type="radio" name="q10" value="d" id="q10d">d. No Special Character<br>
+			    		<br><br>
+			    		<input type="submit" value="submit Answers">
+			    	</form>	
+			    </section>
+			    <footer>
+			    	<footer>
+						<p>
+							Developed by Ratna Maharjan,2017
+						</p>
+					</footer>
+			    	<!-- <p>Copyright &copy; 2017, All Rights Reserved</p> -->
+			    </footer>
+
+			</div>	
+		</body>
+	</head>
+</html>
